@@ -1,0 +1,41 @@
+{
+  "vertical": "email8",
+  "services": [],
+  "apps": [
+    {
+      "slug": "webmail",
+      "web_dir": "build/web",
+      "listing": {
+        "app_name": "Email8:Webmail",
+        "app_slug": "email8-webmail",
+        "description": "Web mail client: mailbox list, message reading and composing over JMAP, search, calendar and contact basics, vacation responses.",
+        "backend_url": "http://localhost:3010",
+        "supports_dcr": true,
+        "visibility": "public",
+        "status": "published",
+        "oauth_defaults": {
+          "grant_types": [
+            "authorization_code",
+            "refresh_token"
+          ],
+          "response_types": [
+            "code"
+          ],
+          "token_endpoint_auth_method": "none",
+          "scopes": [
+            "openid",
+            "profile",
+            "email",
+            "email8:mail:read",
+            "email8:mail:write",
+            "email8:groupware:read",
+            "email8:groupware:write",
+            "storage:env:read",
+            "storage:env:write"
+          ],
+          "consent_required": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# SPDX-FileCopyrightText: Copyright Logically Magic Inc. <hello@logicallymagic.com>
+# SPDX-FileCopyrightText: Copyright Hamid Jahanzad <Hamid@Jahanzad.com>
+# SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
+# SPDX-License-Identifier: Apache-2.0
+
+name: webmail
+description: Email8:Webmail — Sentin8 web mail client. Mailboxes, reading, composing over JMAP, search, calendar/contact basics. Flutter (Web).
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  web: ^1.1.1
+  google_fonts: ^8.1.0
+  sentin8:
+    path: ../../sentin8/sentin8-flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
