@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 name: webmail
-description: Email8:Webmail — Sentin8 web mail client. Mailboxes, reading, composing over JMAP, search, calendar/contact basics. Flutter (Web).
+description: Email8:Webmail - Sentin8 web mail client. Mailboxes, reading, composing over JMAP, search, calendar/contact basics. Flutter (Web).
 publish_to: "none"
 version: 0.1.0
 
