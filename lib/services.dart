@@ -3,10 +3,10 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Email8:Webmail services — BFF proxy access layer.
+// Email8:Webmail services - BFF proxy access layer.
 //
 // All backend access goes through Sentin8:BFF `/proxy/email8-store/...`
-// (JMAP) — tokens never reach the client. `BffApiClient` and
+// (JMAP) - tokens never reach the client. `BffApiClient` and
 // `ApiResponse` are re-exported from the shared sentin8 package.
 
 // Re-export shared types from the package.
@@ -17,7 +17,7 @@ import 'package:sentin8/sentin8.dart';
 /// Centralized service registry for Webmail.
 ///
 /// The Store service exposes the JMAP surface (`POST /jmap`,
-/// `GET /jmap/session`, upload/download) — everything routes through it.
+/// `GET /jmap/session`, upload/download) - everything routes through it.
 class WebmailServices {
   final BffApiClient store;
 

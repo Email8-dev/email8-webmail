@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// eBank auth provider — re-exported from sentin8.
+// eBank auth provider - re-exported from sentin8.
 //
 // AuthProvider and EBankUser are re-exported as aliases for
 // BffAuthProvider and AppUser for backward compatibility.

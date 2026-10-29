@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Email8:Webmail main entry point — Flutter app scaffold + Sentin8
+// Email8:Webmail main entry point - Flutter app scaffold + Sentin8
 // provider initialization.
 //
 // Bootstrap flow (shared platform pattern):

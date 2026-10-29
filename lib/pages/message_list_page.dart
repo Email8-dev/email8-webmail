@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Message list (story 6.1) — Email/query + Email/get over JMAP for one
+// Message list (story 6.1) - Email/query + Email/get over JMAP for one
 // mailbox, unread bold, tap → detail.
 
 import 'package:flutter/material.dart';

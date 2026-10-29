@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Compose (story 6.1) — draft via Email/set then submit via
+// Compose (story 6.1) - draft via Email/set then submit via
 // EmailSubmission/set over JMAP.
 
 import 'package:flutter/material.dart';
@@ -105,7 +105,7 @@ class _ComposePageState extends State<ComposePage> {
     }
   }
 
-  /// The account's drafts mailbox id — resolved via role=drafts, falling
+  /// The account's drafts mailbox id - resolved via role=drafts, falling
   /// back to the first mailbox when roles are absent (P1 store).
   String draftsMailboxId(WebmailAppContext appContext) {
     // The store provisions special-use mailboxes with role names as ids

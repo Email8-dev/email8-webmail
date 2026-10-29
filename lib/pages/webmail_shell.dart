@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Webmail shell — sidebar navigation + hash routing.
+// Webmail shell - sidebar navigation + hash routing.
 // Shows the landing page when signed out, the mail workspace when
 // signed in (story 6.1).
 

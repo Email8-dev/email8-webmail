@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Calendar basics (story 6.1) — CalendarEvent/get over JMAP.
+// Calendar basics (story 6.1) - CalendarEvent/get over JMAP.
 
 import 'package:flutter/material.dart';
 import '../app_context.dart';

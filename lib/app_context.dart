@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Webmail app context — central runtime state.
+// Webmail app context - central runtime state.
 // Holds the AppRuntimeContext, AuthProvider, and WebmailServices;
 // provides them to the widget tree via an InheritedWidget.
 //

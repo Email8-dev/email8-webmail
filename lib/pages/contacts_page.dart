@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Contacts basics (story 6.1) — ContactCard/get over JMAP.
+// Contacts basics (story 6.1) - ContactCard/get over JMAP.
 
 import 'package:flutter/material.dart';
 import '../app_context.dart';

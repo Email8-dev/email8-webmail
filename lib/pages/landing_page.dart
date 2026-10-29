@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Webmail landing page — delegates to sentin8's LandingPage.
+// Webmail landing page - delegates to sentin8's LandingPage.
 import 'package:flutter/material.dart';
 import 'package:sentin8/sentin8.dart' as s8;
 import '../app_context.dart';
@@ -21,7 +21,7 @@ class LandingPage extends StatelessWidget {
     return s8.LandingPage(
       runtimeContext: appContext.runtimeContext,
       auth: appContext.auth,
-      descriptionText: 'Your mail, calendar, and contacts — '
+      descriptionText: 'Your mail, calendar, and contacts - '
           'securely hosted on Sentin8.',
     );
   }

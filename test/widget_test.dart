@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Webmail widget tests — pure-widget coverage that avoids the
+// Webmail widget tests - pure-widget coverage that avoids the
 // web-only shared package (dart:html is unavailable on the VM test
 // platform; ebank has the same limitation).
 

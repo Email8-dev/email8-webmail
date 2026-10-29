@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Search page (story 6.1) — Email/query with text filter + snippets.
+// Search page (story 6.1) - Email/query with text filter + snippets.
 
 import 'package:flutter/material.dart';
 import '../app_context.dart';

@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Message detail (story 6.1) — Email/get with bodyValues over JMAP.
+// Message detail (story 6.1) - Email/get with bodyValues over JMAP.
 
 import 'package:flutter/material.dart';
 import '../app_context.dart';
@@ -68,7 +68,7 @@ class _MessageDetailPageState extends State<MessageDetailPage> {
           }
         }
         if (r[0] == 'Email/get' && args['list'] != null) {
-          // The second call (bodyValues) — matched by call order.
+          // The second call (bodyValues) - matched by call order.
         }
       }
       // Simple fetch of body via a second pass isn't available in the

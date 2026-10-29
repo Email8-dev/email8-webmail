@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Email8:Webmail
 // SPDX-License-Identifier: Apache-2.0
 
-// Mailbox list (story 6.1) — Mailbox/get over JMAP, special-use icons.
+// Mailbox list (story 6.1) - Mailbox/get over JMAP, special-use icons.
 
 import 'package:flutter/material.dart';
 import '../app_context.dart';
